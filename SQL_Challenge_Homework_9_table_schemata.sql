@@ -1,7 +1,7 @@
 -- Exported from QuickDBD: https://www.quickdatabasediagrams.com/
 -- NOTE! If you have used non-SQL datatypes in your design, you will have to change these here.
 
--- ERD
+-- Physical ERD
 
 CREATE TABLE "employees" (
     "emp_no" INT   NOT NULL,
@@ -44,7 +44,7 @@ CREATE TABLE "salaries" (
     "emp_no" INT   NOT NULL,
     "salary" INT   NOT NULL,
     CONSTRAINT "pk_salaries" PRIMARY KEY (
-        "emp_no"
+        "emp_no "
      )
 );
 
